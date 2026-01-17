@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(28, 27, 27);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+#sales h3{
+    color: white;
+    padding-left: 50px;
+}

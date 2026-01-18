@@ -1,3 +1,10 @@
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -16,6 +23,42 @@ nav a{
 nav img{
     height: 40px;
     width: 120px;
-    margin-left: auto;
-    margin-right: auto;
+}
+input{
+    padding: 5px 20px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    gap: 80px;
+    margin: 0 50em ;
+    white-space: nowrap;
+}
+main img{
+    margin-right: 5em;
+}
+#learn-btn{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+    border: 0.2px solid black;
+}
+#explore-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #001959;
+    padding: 15px 24px;
+    border-radius: 8px;
+    border: 0.2px solid #001959;
+}
+#main-btn a{
+    margin: 0 8px;
 }

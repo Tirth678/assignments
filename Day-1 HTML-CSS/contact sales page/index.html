@@ -3,16 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Sales</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="https://elevenlabs-sdk.mintlify.app/favicon.png" style="border: 5px;">
 </head>
 <body>
     <div class="container">
+        <!-- left panel -->
         <div id="sales">
-            <img src="./assests/logo.png">
-            <h3>Contact our sales team</h3>
+            <img src="./assests/logo.png" width="150px">
+            <div>
+                <h3>Contact our sales team</h3>
+                <p><i class="fa fa-rocket"></i> Custom pricing and elevated concurrency</p>
+                <p><i class="fa fa-shield" style="font-size:16px"></i> Enterprise-grade security including SOC II, GDPR and HIPAA compliance</p>
+                <p><i class="fa fa-building" style="font-size:14px"></i> Enterprise support and SLAs</p>
+            </div>
+            <div>
+            <p style="color: #949494; padding-left: 1vh; font-size: medium; margin-top: 5em;">Trusted by 10,000+ leading businesses</p>
+            <img src="./assests/logos.png" width="90%" style="padding-left: 2vh; margin: 0; ">
+        <p style="margin: 0;">
+         <img src="./assests/ratings.png" width="350px" style="padding-left: 0; margin-top: 0;">
+        </p>
         </div>
-        <div></div>
     </div>
+    <!-- right panel -->
+    <div id="login">
+        <div style="flex-direction: column; text-align: left;">
+            <h2 style="margin: 0;">Contact sales form</h2>
+            <p style="margin: 6px 0 0 0;">Please fill out the form below to get started</p>
+        </div>
+        <form>
+            <label for="web">Company Website</label><br>
+            <input type="text" id="web" name="web" placeholder="elevenlabs.co"><br>
+            <label for="email">Business Email</label><br>
+            <input type="text" id="email" name="email" placeholder="example@elevenlabs.co"><br>
+        </form>
+         <div class="final">
+        <button type="submit">Next</button>
+            <img src="./assests/bars.png " width="50%" height="10%" style="padding-top: 20px;">
+    </div>
+    </div>
+    <!-- wave container (in-progress) -->
+  <div class="wave-container">
+  <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+    <path class="wave back" />
+    <path class="wave mid" />
+    <path class="wave front" />
+  </svg>
+</div>
+
 </body>
 </html>

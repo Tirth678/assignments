@@ -1,3 +1,7 @@
+
+*{
+    font-family: sans-serif;
+}
 body{
     background-color: rgb(28, 27, 27);
     margin: 0;
@@ -10,5 +14,149 @@ body{
 }
 #sales h3{
     color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+}
+#sales img{
+    padding-top: 40px;
+}
+#sales{
     padding-left: 50px;
+}
+#sales p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 1.0em;
+}
+.contact{
+    background-color: rgb(255, 255, 255);
+    height: 50em;
+}
+#login {
+    width: 75%;
+    background: #ffffff;
+    padding: 80px;
+    height: 80vh;
+}
+#login h2{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 2.5em;
+    padding-top: 3em; 
+    padding-left: 1em;
+}
+#login p{
+    padding-left: 2.5em; 
+    gap: -10px;
+}
+form input{
+    padding: 12px 14px;
+    border: 0.5px solid grey;
+    border-radius: 9px;
+    width: 90%;
+}
+form input::placeholder{
+    color: grey;
+    font-size: 1em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    padding-left: 2.5em; 
+    padding-top: 2em;
+}
+.final{ 
+    padding-left: 3.5em; 
+    padding-top: 3em;
+}
+.final button{
+    background-color: #6E6E6E; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 25px; 
+    border: none;
+    font: bold;
+}
+.wave-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.wave-container svg {
+  width: 100%;
+  height: 100%;
+}
+
+.wave {
+  fill: white;
+}
+
+.wave.back {
+  opacity: 0.08;
+  animation: waveBack 18s ease-in-out infinite alternate;
+}
+
+.wave.mid {
+  opacity: 0.15;
+  animation: waveMid 12s ease-in-out infinite alternate;
+}
+
+.wave.front {
+  opacity: 0.25;
+  animation: waveFront 8s ease-in-out infinite alternate;
+}
+@keyframes waveBack {
+  0% {
+    d: path("M0,160 C240,200 480,120 720,150 960,180 1200,140 1440,160 L1440,320 L0,320 Z");
+  }
+  100% {
+    d: path("M0,170 C260,130 520,210 760,160 1000,110 1200,180 1440,150 L1440,320 L0,320 Z");
+  }
+}
+
+@keyframes waveMid {
+  0% {
+    d: path("M0,180 C300,140 500,220 720,180 940,140 1140,200 1440,170 L1440,320 L0,320 Z");
+  }
+  100% {
+    d: path("M0,190 C320,220 520,150 740,190 960,230 1180,150 1440,180 L1440,320 L0,320 Z");
+  }
+}
+
+@keyframes waveFront {
+  0% {
+    d: path("M0,200 C360,170 600,250 800,210 1000,170 1200,230 1440,200 L1440,320 L0,320 Z");
+  }
+  100% {
+    d: path("M0,210 C380,250 620,180 820,220 1020,260 1220,180 1440,210 L1440,320 L0,320 Z");
+  }
+}
+.wave {
+  filter: blur(0.3px);
+}
+.wave.front {
+  transform-origin: center;
+  animation: waveFront 8s ease-in-out infinite alternate,
+             float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(6px); }
+}
+.final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

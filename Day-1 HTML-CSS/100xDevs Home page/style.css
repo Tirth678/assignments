@@ -62,3 +62,14 @@ main img{
 #main-btn a{
     margin: 0 8px;
 }
+.card1{
+    background-color: #001959;
+    padding: 32px 0;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20vh;
+}

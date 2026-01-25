@@ -9,7 +9,7 @@ const countVowels = (str) => {
     let vowels = 'aeiouAEIOU';
     let totalVowels = 0;
     for(let i=0; i<str.length; i++){
-        if(vowels.includes(str)){
+        if(vowels.includes(str[i])){
             totalVowels++;
         }
     }
@@ -18,4 +18,4 @@ const countVowels = (str) => {
 }
 
 console.log(countVowels('I am a good boy'));
-console.log(countVowels('I am a bad boy'))
+console.log(countVowels('I am a bad boy '))
